@@ -41,3 +41,39 @@ The project showcases:
 ```bash
 git clone https://github.com/Harshvi25/Mission-Pizza.git
 cd MissionPizza
+
+**### 2. Install Dependencies**
+pip install -r requirements.txt
+
+### 3. Run Phase 1 (MCP Server)
+python mcpserver/server.py
+
+### 4. Run Phase 2 & 3 Demo
+python mcpserver/ordering_agent.py
+
+## Example Flow
+
+### 1. View Menu
+User: "Show me the pizza menu"
+
+### 2. Place Order
+User: "Order 2 large Margherita pizzas"
+
+## Technologies Used
+Python
+OpenAPI 3.0
+Model Context Protocol (MCP)
+Agent-to-Agent (A2A) communication
+Rule-based AI agent logic
+
+## Notes
+Backend logic is intentionally lightweight and mocked
+Focus is on MCP translation, agent orchestration, and multi-agent workflows
+Flow demonstrates end-to-end real-world scenario from menu selection to delivery scheduling
+
+## Author
+Harshvi Patel
+
+
+
+
