@@ -39,5 +39,5 @@ The project showcases:
 
 ### 1. Clone Repository
 ```bash
-git clone 
+git clone https://github.com/Harshvi25/Mission-Pizza.git
 cd MissionPizza
